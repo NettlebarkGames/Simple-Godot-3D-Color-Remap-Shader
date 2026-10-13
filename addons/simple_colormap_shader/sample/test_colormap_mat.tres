@@ -1,0 +1,13 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://6ljkk66wsjv"]
+
+[ext_resource type="Shader" uid="uid://bweiameoljp4t" path="res://addons/simple_colormap_shader/colormap_shader/simple_colormap_shader.gdshader" id="1_2gujl"]
+[ext_resource type="Texture2D" uid="uid://duaulh4i2u5wh" path="res://addons/simple_colormap_shader/sample/sword_tex_colormap.png" id="2_pco4f"]
+[ext_resource type="Texture2D" uid="uid://cq4gxbkfle4u1" path="res://addons/simple_colormap_shader/colormap_shader/blank_dark.png" id="3_210e4"]
+[ext_resource type="Texture2D" uid="uid://d2klx5qrn6t78" path="res://addons/simple_colormap_shader/sample/sword_tex_albedo.png" id="4_tvyra"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_2gujl")
+shader_parameter/main_tex = ExtResource("4_tvyra")
+shader_parameter/emission_map = ExtResource("3_210e4")
+shader_parameter/color_map = ExtResource("2_pco4f")

@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://ciqrw8166ingn"]
+
+[ext_resource type="PackedScene" uid="uid://bcpbkin1hud3p" path="res://addons/simple_colormap_shader/sample/sword.glb" id="1_3pkq3"]
+[ext_resource type="Material" uid="uid://6ljkk66wsjv" path="res://addons/simple_colormap_shader/sample/test_colormap_mat.tres" id="2_gkqre"]
+
+[node name="sword" unique_id=1689243999 instance=ExtResource("1_3pkq3")]
+
+[node name="Sword" parent="." index="0" unique_id=1243182523]
+instance_shader_parameters/remap_0_red = Color(1, 1, 1, 1)
+instance_shader_parameters/remap_1_green = Color(0.71410894, 0.27735934, 0.7957959, 1)
+instance_shader_parameters/remap_2_blue = Color(0.67988425, 0.48426926, 0.63462776, 1)
+instance_shader_parameters/remap_3_yellow = Color(0.20695463, 0.5330566, 0.3349604, 1)
+instance_shader_parameters/remap_4_magenta = Color(0.7503203, 0.5669476, 0.7086105, 1)
+instance_shader_parameters/remap_5_teal = Color(0.20731798, 0.53119653, 0.35683388, 1)
+surface_material_override/0 = ExtResource("2_gkqre")
